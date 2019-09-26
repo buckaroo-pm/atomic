@@ -1,0 +1,33 @@
+manifest = "96be60f56ad5a5b281130848754614bb62b9de1df2d80de47622975e3db3f88d"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+target = "//:config"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-integer"
+target = "//:integer"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-mpl"
+target = "//:mpl"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-smart_ptr"
+target = "//:smart_ptr"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.71.0" ]
+revision = "a01fea638aafad030e7ded8bbe1b3ca68a539f5f"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.71.0" ]
+revision = "172687230eb7387434e1f4d84b5a9022f5923e0c"
+
+[lock."github.com/buckaroo-pm/boost-mpl"]
+versions = [ "1.71.0" ]
+revision = "f9be2ecfe9576585dea661390bf48f3c8711fce3"
+
+[lock."github.com/buckaroo-pm/boost-smart_ptr"]
+versions = [ "1.71.0" ]
+revision = "86579076ceddcdf54ae99295aa76756056b8d101"
